@@ -1,0 +1,239 @@
+/*=== generate code ===*/
+section.generate_code_section {
+  min-height: 100vh;
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.inner_text h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  color: #000;
+}
+
+.inner_text p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22.4px;
+  color: #000;
+}
+
+.generate_code_section .tracking_form .form-control {
+  background: #EFF1F3;
+  border: 1px solid #EFF1F3 !important;
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  color: #1D1A2F;
+  padding: 20px 24px;
+}
+
+.generate_code_section .tracking_form .form-control::placeholder {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500 !important;
+  opacity: 0.5;
+  line-height: 32px;
+  color: #1D1A2F;
+}
+
+.select_outer {
+  background: #F1F2F6;
+  border-radius: 16px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.select_outer select,
+.select_outer select:active,
+.select_outer select:focus,
+.select_outer select:hover {
+  border: none;
+  background: transparent;
+  appearance: none;
+  padding: 0;
+  outline: none;
+  box-shadow: none;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 32px;
+  font-size: 18px;
+  color: #000;
+  z-index: 9;
+  padding: 12px 12px 12px 24px;
+}
+
+.dorpdown_icon {
+  position: absolute;
+  right: 12px;
+  z-index: 0;
+}
+
+.generate_code_section .tracking_form form button.btn.btn-primary {
+  background: #271353;
+}
+
+.navbar-toggler {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.login_option button.btn.btn-primary {
+  /* font-size: 12px; */
+  min-width: auto;
+}
+
+@media (max-width:1400px) {
+  section.banner_section {
+    height: 90vh;
+  }
+}
+
+@media (max-width:1370px) {
+  section.banner_section {
+    height: 110vh;
+  }
+
+  .robotics_card {
+    height: 279px;
+    margin-top: -97px;
+  }
+}
+
+@media (max-width:1290px) {
+  section.banner_section {
+    height: auto;
+  }
+
+}
+
+@media (max-width:1100px) {
+  .banner_section .bg_video video {
+    max-height: 100%;
+  }
+}
+
+@media (max-width:992px) {
+  .where_we_shine {
+    max-width: 100%;
+    margin-bottom: 58px;
+  }
+
+  .robotics_card {
+    height: 356px;
+    margin-top: -125px;
+  }
+
+  .robotics_bg img {
+    width: 120%;
+    margin-left: -10%;
+  }
+
+  .center_border:after {
+    display: none;
+  }
+
+  header ul.navbar-nav .nav-item .nav-link {
+    padding: 7.4px 0px;
+  }
+
+  header ul.navbar-nav .nav-item .nav-link.active {
+    padding: 7.4px 16px;
+  }
+
+  header ul.navbar-nav {
+    gap: 5px;
+  }
+
+  .navbar-collapse {
+    background: #fff;
+    padding: 9px;
+    box-shadow: 0 10px 20px 0 #e4e4e4;
+    border-radius: 10px;
+    margin-top: 14px;
+  }
+
+  .generate_modal {
+    padding-top: 30px;
+  }
+
+}
+
+@media (max-width:850px) {
+  header {
+    top: 24px;
+  }
+
+  section.banner_section.generate_banner {
+    height: auto;
+    min-height: 100vh;
+  }
+}
+
+@media (max-width:767px) {
+  .robotics_card {
+    height: 356px;
+    margin-top: 16px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .robotics_bg img {
+    width: 98%;
+    margin-left: 4%;
+    margin-right: 0;
+  }
+
+  .where_we_shine {
+    margin-bottom: 28px;
+    margin-top: 28px;
+  }
+
+  .artifical_content img {
+    object-fit: cover;
+    object-position: right;
+  }
+
+  section.tackling {
+    padding: 0px 0;
+  }
+
+  footer {
+    margin-top: 40px;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+  }
+
+  .footer_heading h4 {
+    color: #fff;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  br {
+    display: none !important;
+  }
+
+  .automation_content h4 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+
+  section.banner_section {
+    padding: 88px 0;
+    height: 107vh;
+  }
+
+}

@@ -1,0 +1,154 @@
+.generate_test h3 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000;
+}
+
+.add_variable {
+    border: 2px solid #1D1A2F;
+    border-radius: 8px;
+    background: #fff;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 10px 8px;
+}
+
+.add_variable input,
+.add_variable input:active,
+.add_variable input:focus,
+.add_variable input:hover {
+    border: none;
+    padding: 0 0 0 34px;
+    width: 100%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22.4px;
+    color: #1D1A2F;
+    outline: none;
+    box-shadow: none;
+}
+
+.add_variable input::placeholder {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22.4px;
+    color: #1D1A2F;
+}
+
+.add_icon {
+    position: absolute;
+    left: 8px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.generate_input input,
+.generate_input input:active,
+.generate_input input:focus,
+.generate_input input:hover {
+    height: 40px;
+    width: 100%;
+    padding: 8px 15px;
+    background: #EFF1F3;
+    border-radius: 8px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22.4px;
+    color: #000;
+}
+
+.generate_input input::placeholder {
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22.4px;
+    color: #000;
+}
+
+.generate_input {
+    margin-top: 10px;
+}
+
+.go_back {
+    position: absolute;
+    left: 0;
+    top: 13px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22.4px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+header .inner_menu ul.navbar-nav a.nav-link.active_nav,
+header .inner_menu ul.navbar-nav a.nav-link.active_nav:hover {
+    border: 1px solid #1D1A2F;
+    background: #EFF1F3;
+    color: #1D1A2F;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+}
+
+header .inner_menu ul.navbar-nav a.nav-link.active_nav svg,
+header .inner_menu ul.navbar-nav a.nav-link.active_nav svg path {
+    fill: #1D1A2F;
+}
+
+header .inner_menu ul.navbar-nav .nav-item .nav-link.active {
+    color: #fff;
+}
+
+header .inner_menu ul.navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+}
+
+.submission_card {
+    border: 1px solid #1D1A2F;
+    border-radius: 24px;
+    background: #fff;
+    min-height: 183px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 24px;
+}
+
+.submission_card h3 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 32px;
+}
+
+.submission_card p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22.4px;
+    color: #000;
+}
+
+.go_back.submission {
+    position: relative;
+    top: 0;
+}

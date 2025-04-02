@@ -1,0 +1,59 @@
+/* shipping detail page */
+.custom-board-list-color {
+    background-color: #FF13E5;
+    border-radius: 30px;
+    color: #ffff;
+}
+
+.shipping-detail-ul li a {
+    color: black;
+}
+
+.next-btn {
+    background-color: #271353;
+    color: #ffff;
+    border-radius: 30px;
+    width: 80px;
+}
+
+.back-btn {
+    background-color: transparent;
+    color: black;
+    border-color: #271353;
+    border-radius: 30px;
+    width: 80px;
+}
+
+.shipping-detail-section{
+
+}
+
+.billing-address-section{
+    width: 590px;
+}
+
+.billing-address-image-section{
+    width: 488px;
+}
+
+.billing-address-form{
+
+}
+
+
+.info-container {
+    font-family: Arial, sans-serif;
+}
+
+.info-row {
+    margin-bottom: 8px; /* Adjust the spacing as needed */
+}
+
+.info-title {
+    font-weight: bold;
+    margin-right: 10px; /* Adjust the spacing between title and value as needed */
+}
+
+.info-value {
+    color: #333; /* Adjust the color as needed */
+}
